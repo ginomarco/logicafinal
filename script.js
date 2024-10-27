@@ -45,15 +45,6 @@ document.getElementById('cart-icon').addEventListener('click', () => {
     cartContainer.style.display = cartContainer.style.display === 'none' ? 'block' : 'none';
 });
 
-// Confirmar compra
-document.getElementById('checkout-btn').addEventListener('click', () => {
-    alert(`Total a pagar: $${cartTotalElement.textContent}`);
-    cart = [];
-    updateCart();
-    cartContainer.style.display = 'none';
-});
-
-// Agregar evento a los botones de agregar
 document.querySelectorAll('.add-to-cart-btn').forEach(button => {
     button.addEventListener('click', () => addToCart(parseInt(button.dataset.id)));
 });document.getElementById('checkout-btn').addEventListener('click', () => {
