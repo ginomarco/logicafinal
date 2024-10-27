@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logogym.jpg">
+            </div>
+            <div class="navDiv">
+                <label for="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+            <input type="checkbox" id="menu">
+            <ul class="nav">
+                <label for="menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <li><a href="#home">Home</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="#skill">Habilidades</a></li>
+                <li><a href="#project">Experiencia</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <!-- Icono de carrito de compras -->
+                <li>
+                    <a href="#cart" id="cart-icon">
+                        <i class="fa-solid fa-shopping-cart"></i>
+                        <span id="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+    
+        <!-- Contenedor del carrito de compras -->
+        <div id="cart-container" class="cart-container">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <button id="checkout-btn">Confirmar Compra</button>
+        </div>
+    
+        <!-- Resto del contenido de la página -->
+    </body>
+    
+    
+
+    <div class="container">
+        <div class="banner" id="home">
+            <div class="content">
+                <p>Bienvenidos a mi perfil</p>
+                <h1>
+                    Hola, soy Miguel Tortorelli <br/>
+                     <div class="gradientText">
+                        <div class="job" data-job1="Personal" data-job2="Trainer"></div>
+                    </div>
+                </h1>
+                <p>
+                    Soy Profesor de Educación Física, especializado en entrenamiento de la fuerza aplicada al deporte y la salud, tengo experiencia entrenando a un jugador de futbol profesional, y un kickboxer, contactame para armar tu rutina especializada y asi poder alcanzar tu objetivo!
+                </p>
+                <div class="find">
+                    <h3>Contactame</h3>
+                    <ul>
+                        <li><a href="https://www.youtube.com/@tequetortorelli7422"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/tequetortorelli/?hl=es-la"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="img/teque1.jpg" alt="">
+            </div>
+        </div>
+
+       <div id="skill">
+        <h1 class="title">Habilidades</h1>
+        <div class="listSkill">
+            <div class="item">
+                <div class="name">Motivación</div>
+                <div class="evaluate" style="--point:99.9%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Dedicación</div>
+                <div class="evaluate" style="--point:99.9%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Responsabilidad</div>
+                <div class="evaluate" style="--point:100%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Conocimiento</div>
+                <div class="evaluate" style="--point:90%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Capacidad de escucha</div>
+                <div class="evaluate" style="--point:90%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Comunicación</div>
+                <div class="evaluate" style="--point:90%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Responsabilidad</div>
+                <div class="evaluate" style="--point:100%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Adaptabilidad</div>
+                <div class="evaluate" style="--point:100%"></div>
+            </div>
+        </div>
+       </div>
+       <div id="project">
+            <h1 class="title">Experiencia</h1>
+            <div class="listProject">
+                <div class="item">
+                    <img src="proyectotquito1.png" alt="">
+                    <div class="name">
+                        Entrenando Rugby
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/juan.jpg" alt="">
+                    <div class="name">
+                        Entrenando a Juan, un jugador de futbol profesional
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/GYM1.jpg" alt="">
+                    <div class="name">
+                        Personal en el gym
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/maraton.jpg" alt="">
+                    <div class="name">
+                        Gino, a quien prepare para correr una maraton 10K
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/GYM2.jpg" alt="">
+                    <div class="name">
+                        Entrenando a Facundo, haciendo Drop Jump
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/GYM3.png" alt="">
+                    <div class="name">
+                        Haciendo Flexiones de Brazo
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <div id="contact">
+        <h1 class="title">Contacto</h1>
+        <ul class="contact">
+            <li><a href="https://www.youtube.com/@tequetortorelli7422"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/tequetortorelli/?hl=es-la"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+       </div>
+<div class="routine-list">
+    <div class="routine-item">
+        <h3>Rutina Básica</h3>
+        <p>Precio: $50000</p>
+        <p>El plan <strong>Básico</strong> incluye el armado de una rutina por 3 meses</p>
+        <button class="add-to-cart-btn" data-id="1">Agregar al carrito</button>
+    </div>
+    <div class="routine-item">
+        <h3>Rutina Intermedia</h3>
+        <p>Precio: $80000</p>
+        <p>La rutina <strong>Intermedia</strong> incluye el plan básico y además podras entrenar conmigo 2 veces a la semana</p>
+        <button class="add-to-cart-btn" data-id="2">Agregar al carrito</button>
+    </div>
+    <div class="routine-item">
+        <h3>Rutina Avanzada</h3>
+        <p>Precio: $120000</p>
+        <p>La rutina <strong>Avanzada</strong> incluye lo mismo que las anteriores pero se le agrega consultas con un nutricionista del equipo</p>
+        <button class="add-to-cart-btn" data-id="3">Agregar al carrito</button>
+    </div>
+</div>
+
+    <!-- Importar archivo JavaScript -->
+    <script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
